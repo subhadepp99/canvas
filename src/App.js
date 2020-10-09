@@ -53,10 +53,7 @@ class App extends Component {
           handleClick={this.changeTool}
           color={this.state.color}
         />
-        {/* <ColorPanel
-          selectedColor={this.state.color}
-          handleClick={this.changeColor}
-        /> */}
+       
       </React.Fragment>
     );
   }
